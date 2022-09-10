@@ -1,0 +1,7 @@
+<application>
+  <component name="GithubAccounts">
+    <account name="topalek" id="fffec678-d3f8-448f-9db1-98a34fa1b8af">
+      <server host="github.com" />
+    </account>
+  </component>
+</application>
