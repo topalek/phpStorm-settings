@@ -1,0 +1,10 @@
+<templateSet group="Laravel">
+  <template name="ast" value="{{asset(&quot;$SELECTION$&quot;)}}" description="Surround with asset() section" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+      <option name="Vue" value="true" />
+      <option name="XML" value="true" />
+    </context>
+  </template>
+</templateSet>
