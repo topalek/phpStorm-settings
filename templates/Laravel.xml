@@ -7,8 +7,15 @@
       <option name="XML" value="true" />
     </context>
   </template>
-  <template name="@sec" value="@section('$1$')&#10;$end$&#10;@endsection" description="blade section" toReformat="false" toShortenFQNames="true">
+  <template name="@sec" value="@section('$1$')&#10;$end$&#10;@endsection" description="blade section" toReformat="true" toShortenFQNames="true">
     <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="au" value="Auth::user()$end$" description="laravel Auth::user" toReformat="true" toShortenFQNames="true">
     <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
