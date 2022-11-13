@@ -7,15 +7,6 @@
       <option name="XML" value="true" />
     </context>
   </template>
-  <template name="@if" value="@if($1$)&#10;$2$&#10;@else&#10;$end$&#10;@endif" description="blade if" toReformat="false" toShortenFQNames="true">
-    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="HTML" value="true" />
-      <option name="PHP" value="true" />
-    </context>
-  </template>
   <template name="@sec" value="@section('$1$')&#10;$end$&#10;@endsection" description="blade section" toReformat="false" toShortenFQNames="true">
     <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
