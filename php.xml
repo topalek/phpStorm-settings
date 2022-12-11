@@ -1,7 +1,0 @@
-<application>
-  <component name="PhpDebugGeneral" xdebug_notify_resolved_breakpoints="false" />
-  <component name="PhpSmartKeysConfiguration">
-    <option name="replaceUnnecessaryDoubleQuotes" value="true" />
-    <option name="selectVariableNameWithoutDollar" value="true" />
-  </component>
-</application>
