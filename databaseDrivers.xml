@@ -1,5 +1,8 @@
 <application>
   <component name="LocalDatabaseDriverManager" version="201">
+    <driver id="clickhouse">
+      <artifact id="ClickHouse" name="ClickHouse" use="true" version="0.3.2.11" />
+    </driver>
     <driver id="mariadb">
       <artifact id="MariaDB Connector J" name="MariaDB Connector J" use="true" version="3.0.7" />
     </driver>
