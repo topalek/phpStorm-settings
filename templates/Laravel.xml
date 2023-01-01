@@ -22,4 +22,12 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="__" value="{{ __(&quot;$SELECTION$&quot;) }}" description="Surround with __() section" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+      <option name="Vue" value="true" />
+      <option name="XML" value="true" />
+    </context>
+  </template>
 </templateSet>
